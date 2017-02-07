@@ -1,0 +1,26 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A: I've learned how to easily spot the difference in code between two files with using Ubuntu Bash for Windows 10. The + and - marks are very helpful for seeing lines that have been added or removed. I can already see that the diff command will become very useful.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: I believe that being able to roll back to a previous version is very important. If a major error or bug in the software is found it will allow the developer to roll back to the last known working version if needed.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A:
+Pros:
+-The developer is able to commit after succesfully completing a step.
+-Commmits won't occur too frequently when the developer has control.
+-Manual commits will allow the developer to give a brief description of what the change in code contains, thus making it easier to understand.
+
+Cons:
+-The developer could forget to commit after each step is complete, causing the commits to be too large.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in on commit, while others, like Google Docs, treat each file seperately?
+
+A: Programs are often multiple files of code that relate to each other. For example, .java files also create seperate files for classes.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: git log will display a list of the last changes along with commit number. The user can then use git diff with the id's of two of the git numbers to view the changes in the code.
