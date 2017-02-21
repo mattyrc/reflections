@@ -1,7 +1,18 @@
-What happens when you initialize a repository? Why do you need to do it?
+Q:What happens when you initialize a repository? Why do you need to do it?
+A: Initializing a directory creates a .git folder with all of the necessary files to allow tracking of the current directory in git.
 
-Initializing a directory creates a .git folder with all of the necessary files to allow tracking of the current directory in git.
+Q: How is the staging area different from the working directory and the repository? what value do you think if offers?
+A: The staging area is different from the working directory and the repository because it allows the user to choose which files to add for commit and/or push to the repository.
 
-How is the staging area different from the working directory and the repository? what value do you think if offers?
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: The staging area will show the new files or files that have been modified and are ready for a commit.
 
-The staging area is different from the working directory and the repository because it allows the user to choose which files to add for commit and/or push to the repository.
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: I think that branches would be very helpful when adding and testing new experimental features. Being able to fork off of the master would allow the experiemental features to be developed while development on the master can continue. If it is decided that the experimental features should be implemented then the experimental and the master branch can later be merged.
+
+
+Q: How do the diagrams help you visualize the branch structure?
+A: The diagrams feature will help the user visualize the structure of the branches and commits via the formatting of the log. For example, indentation shows the commits that have been added after a specific branch.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: Merging two branches together will combine the differences in the code into one. All commits from all the banches that were combined will now be present and stored in a single branch. The diagram presents the commits in such a way that makes it easy to see what commits were made under which branch.
