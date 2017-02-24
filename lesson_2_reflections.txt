@@ -16,3 +16,22 @@ A: The diagrams feature will help the user visualize the structure of the branch
 
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 A: Merging two branches together will combine the differences in the code into one. All commits from all the banches that were combined will now be present and stored in a single branch. The diagram presents the commits in such a way that makes it easy to see what commits were made under which branch.
+
+Q: What are the pros and cons of Gits automatic merging vs. always doing merges manually?
+A: 
+Auto Merge Pros:
+- Can save the developers time by not always having to dig through the code everytime a merge is made
+- Simplifies the process of merging branches
+- Eliminates some human error during the merge process
+
+Auto Merge Cons:
+- Could incorrectly merge code
+- The developer doesn't have full control on what code gets merged
+
+Manual Merge Pros:
+- The developer has full control of what gets added/modified
+- Developer will most likely understand/interpret the code better than git
+
+Manual Merge Cons:
+- More room for human error
+- Takes development time away from the developer
