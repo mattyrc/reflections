@@ -5,3 +5,9 @@ want to continue work on another computer (e.g office to home).
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your
 remote repository?
 A: Pulling changes manually allows the user to finished their current task without being interupted by possible merge conflicts multiple times. Once the developer is finished with their task, they can then pull the remote changes and solve any potential conflicts at that time.
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A: 
+- Fork: Copies a repository to your GitHub.
+- Clone: Copies a remote repository to your local machine.
+- Branch: A branch copies a project on the same repository so that additional/experimental changes can be made to the project without affecting the main (master) program. The branch can then be merged to the main (master) branch at a later time.
