@@ -11,3 +11,6 @@ A:
 - Fork: Copies a repository to your GitHub.
 - Clone: Copies a remote repository to your local machine.
 - Branch: A branch copies a project on the same repository so that additional/experimental changes can be made to the project without affecting the main (master) program. The branch can then be merged to the main (master) branch at a later time.
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+A: One benefit would be if you plan working on the project while offline. For example, taking a flight on an airplane.
