@@ -14,3 +14,9 @@ A:
 
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 A: One benefit would be if you plan working on the project while offline. For example, taking a flight on an airplane.
+
+Q: How would you collaborate without Git or GitHub? What would be easier, and what would be harder?
+A: Collaborating without Git would be difficult, however there are alternatives such as Subversion, CVS, Microsoft Team Foundation Server, Helix etc. Most alternatives to Git would require a local server at the studio/office and would make it difficult to collaborate outside of the office. Merging other peoples work would also be much more challenging without Git. I am having a hard time coming up with an easier solution to collaborate without Git.
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A: A seperate branch could be useful whenever a developer would like to keep the master branch clean. For example, if the user would like to make experiemental features to the code, it might be a good idea to break off into another branch. Developers can later discuss the changes/additions and decide whether or not to merge the branch with the master.
